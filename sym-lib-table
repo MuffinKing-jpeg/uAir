@@ -1,0 +1,11 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Muffin_CONNECTORS") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_CONNECTORS.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_DC-DC") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_DC-DC.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_DIODES") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_DIODES.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_DISPLAYS") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_DISPLAYS.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_LDO") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_LDO.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_MCU") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_MCU.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_PMIC") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_PMIC.kicad_sym") (options "") (descr ""))
+	(lib (name "Muffin_SWITCH") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_SWITCH.kicad_sym") (options "") (descr ""))
+)

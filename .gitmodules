@@ -1,0 +1,3 @@
+[submodule "parts-lib"]
+	path = parts-lib
+	url = git@github.com:MuffinKing-jpeg/KiCAD-Parts.git
