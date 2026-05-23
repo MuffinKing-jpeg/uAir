@@ -8,4 +8,5 @@
 	(lib (name "Muffin_MCU") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_MCU.kicad_sym") (options "") (descr ""))
 	(lib (name "Muffin_PMIC") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_PMIC.kicad_sym") (options "") (descr ""))
 	(lib (name "Muffin_SWITCH") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/Muffin_SWITCH.kicad_sym") (options "") (descr ""))
+	(lib (name "DEBUG") (type "KiCad") (uri "${KIPRJMOD}/parts-lib/Symbols/DEBUG.kicad_sym") (options "") (descr ""))
 )
