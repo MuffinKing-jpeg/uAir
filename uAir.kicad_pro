@@ -6,7 +6,7 @@
         "apply_defaults_to_fp_barcodes": false,
         "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
-        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_shapes": true,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
         "copper_line_width": 0.2,
@@ -16,8 +16,8 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
-        "dimension_units": 3,
+        "dimension_precision": 2,
+        "dimension_units": 2,
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
@@ -45,8 +45,8 @@
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.9,
+        "silk_text_size_v": 0.9,
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
@@ -63,7 +63,7 @@
           "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 3,
           "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|165600000|92697185|4e82fa5b-6beb-4c3c-acdb-0edb65e98b31|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -170,7 +175,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
